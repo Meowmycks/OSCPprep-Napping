@@ -137,9 +137,9 @@ We see that there's a Python script at ```/home/adrian/query.py```. Let's invest
 
 The script seems to query the web server to check if it's online and writes the results to a file ```site_status.txt```.
 
-Upon investigating the subsequent file, it seems the query occurs every two minutes.
-
 ![privesc2](https://user-images.githubusercontent.com/45502375/170441720-e02743b9-18b5-40f4-af07-08b770695c63.PNG)
+
+Upon investigating the subsequent file, it seems the query occurs every two minutes.
 
 ![privesc3](https://user-images.githubusercontent.com/45502375/170441733-fb120ccd-fe00-4e39-9abf-b0f329b879d9.PNG)
 
