@@ -177,11 +177,11 @@ Now we can start another NetCat listener on port ```5555``` and successfully gai
 
 Next we'll upgrade to a full TTY shell using the following commands/steps:
 
-      1 - ```python3 -c 'import pty;pty.spawn("/bin/bash")'```
-      2 - press Ctrl+Z
-      3 - ```stty raw -echo;fg``` 
-      4 - press ENTER twice
-      5 - ```export TERM=xterm```
+1 - ```python3 -c 'import pty;pty.spawn("/bin/bash")'```
+2 - (press Ctrl+Z)
+3 - ```stty raw -echo;fg```
+4 - (press ENTER twice)
+5 - ```export TERM=xterm```
 
 ![privesc7](https://user-images.githubusercontent.com/45502375/170441792-423ba0e7-72de-4a56-9a28-7b5f7837b811.PNG)
 
