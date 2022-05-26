@@ -187,7 +187,7 @@ Next we'll upgrade to a full TTY shell using the following commands/steps:
 	
 	5 - export TERM=xterm
 
-![privesc7](https://user-images.githubusercontent.com/45502375/170441792-423ba0e7-72de-4a56-9a28-7b5f7837b811.PNG)
+![privesc7](https://user-images.githubusercontent.com/45502375/170443449-e8594ee8-8868-45a7-82e3-7b2d76ada2ff.PNG)
 
 ## Step 3 - Privilege Escalation
 
