@@ -147,6 +147,8 @@ Given that we are part of the ```administrators``` group, we can assume we have 
 
 We can now try to become ```adrian``` by creating a reverse shell script and adding two lines in ```query.py``` to call it.
 
+The reasoning behind this is we can assume that the script is automatically running under the user ```adrian```. While we don't currently know what group he's in or what privileges he owns, we'll at least be finding/doing something otherwise not possible while in ```daniel```'s account.
+
 We will create the script ```shell.sh``` in ```/dev/shm```, in shared memory.
 
 We can create the script using the following Bash code:
