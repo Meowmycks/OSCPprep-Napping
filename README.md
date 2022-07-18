@@ -1,4 +1,4 @@
-# Boot2Root CTF: *OSCP - Napping*
+# OSCP Prep - *Napping*
 
 ## Objective
 
